@@ -6,7 +6,7 @@ Link: https://registry.hub.docker.com/u/frvi/asciidoctor[frvi/asciidoctor]
 
 == Run
 [source,bash]
-docker run -v $PWD:/asciidoc frvi/asciidoctor <your_file.adoc>
+docker run --rm -v $PWD:/asciidoc frvi/asciidoctor <your_file.adoc>
 
 === TODO:
 
